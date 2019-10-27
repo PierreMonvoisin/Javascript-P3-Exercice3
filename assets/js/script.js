@@ -1,11 +1,11 @@
-document.getElementsByClassName("class green").onclick = function() {
-  document.getElementById("text").style.backgroundColor = "#00FF00";
+document.getElementById("green").onclick = function() {
+  document.getElementById("text").style.backgroundColor = "green";
 };
 
-document.getElementsByClassName("class red").onclick = function() {
+document.getElementById("red").onclick = function() {
   document.getElementById("text").style.backgroundColor = "red";
 };
 
-document.getElementsByClassName("class blue").onclick = function() {
+document.getElementById("blue").onclick = function() {
   document.getElementById("text").style.backgroundColor = "blue";
 };
